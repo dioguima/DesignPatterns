@@ -4,22 +4,22 @@ using System.Text;
 
 namespace Prototype
 {
-    class Circle : GameObjectPrototype
+    class Circle : IGameObjectPrototype
     {
         private int x;
         private int y;
 
-        public override EObjectType ObjectType { get => EObjectType.Circle; }
+        public EObjectType ObjectType { get => EObjectType.Circle; }
 
-        private Circle(int x, int y)
+        public Circle(int x, int y)
         {
             this.x = x;
             this.y = y;
         }
 
-        public override IGameObject Clone()
+        public IGameObjectPrototype Clone()
         {
-            return new Circle(0, 0);
+            return new Circle(x, y);
         }
     }
 }

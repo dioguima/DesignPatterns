@@ -4,11 +4,11 @@ using System.Text;
 
 namespace Prototype
 {
-    public interface IGameObject
+    public interface IGameObjectPrototype
     {
         EObjectType ObjectType { get; }
 
-        IGameObject Clone();
+        IGameObjectPrototype Clone();
     }
 
     public enum EObjectType

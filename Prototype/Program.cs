@@ -6,7 +6,17 @@ namespace Prototype
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            IGameObjectPrototype circle = Factory.GetPrototype(EObjectType.Circle);
+            if(circle != null)
+            {
+                Console.WriteLine("Circle found");
+            }
+            IGameObjectPrototype rectangle = Factory.GetPrototype(EObjectType.Rectangle);
+            if (rectangle != null)
+            {
+                Console.WriteLine("Rectangle found");
+            }
+            Console.Read();
         }
     }
 }
