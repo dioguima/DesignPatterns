@@ -6,6 +6,7 @@ namespace Observer
     {
         static void Main(string[] args)
         {
+            //Reference: https://sourcemaking.com/design_patterns/observer
             Input input = new Input();
             MultiplierObserver multiplierObserver = new MultiplierObserver(input);
             HexObserver hexObserver = new HexObserver(input);

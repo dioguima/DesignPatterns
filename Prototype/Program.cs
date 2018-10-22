@@ -6,6 +6,7 @@ namespace Prototype
     {
         static void Main(string[] args)
         {
+            //Reference: https://sourcemaking.com/design_patterns/visitor
             IGameObjectPrototype circle = Factory.GetPrototype(EObjectType.Circle);
             if(circle != null)
             {
