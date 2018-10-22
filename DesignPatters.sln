@@ -17,7 +17,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Observer", "Behavioral\Obse
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Structural", "Structural", "{F2E24CA9-7FEB-4C09-BCBE-0A34385FEC61}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flyweight", "Structural\Flyweight\Flyweight.csproj", "{EEBECF00-54FA-4757-BF09-1EA741398B97}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Flyweight", "Structural\Flyweight\Flyweight.csproj", "{EEBECF00-54FA-4757-BF09-1EA741398B97}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "State", "Behavioral\State\State.csproj", "{FCC3D36F-6C92-4A09-A320-C9BCA1905FE2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{EEBECF00-54FA-4757-BF09-1EA741398B97}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EEBECF00-54FA-4757-BF09-1EA741398B97}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EEBECF00-54FA-4757-BF09-1EA741398B97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCC3D36F-6C92-4A09-A320-C9BCA1905FE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCC3D36F-6C92-4A09-A320-C9BCA1905FE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCC3D36F-6C92-4A09-A320-C9BCA1905FE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCC3D36F-6C92-4A09-A320-C9BCA1905FE2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -55,6 +61,7 @@ Global
 		{BDD950DD-4C15-491C-BC1F-282208B5EFF3} = {80E61B37-520C-42E0-A170-96E26971D13C}
 		{A3BE289D-D487-42A3-910D-15CCBCC1D177} = {7FAA04E6-8595-462A-895D-247CE36E7E79}
 		{EEBECF00-54FA-4757-BF09-1EA741398B97} = {F2E24CA9-7FEB-4C09-BCBE-0A34385FEC61}
+		{FCC3D36F-6C92-4A09-A320-C9BCA1905FE2} = {7FAA04E6-8595-462A-895D-247CE36E7E79}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {245F51A9-7E4A-4747-A072-0A3432209E66}
