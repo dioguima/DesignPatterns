@@ -12,6 +12,5 @@ namespace Flyweight
         {
             this.position = position;
         }
-
     }
 }
