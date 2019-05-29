@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27703.2042
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.452
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Creational", "Creational", "{80E61B37-520C-42E0-A170-96E26971D13C}"
 EndProject
@@ -21,9 +21,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Flyweight", "Structural\Fly
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "State", "Behavioral\State\State.csproj", "{FCC3D36F-6C92-4A09-A320-C9BCA1905FE2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Builder", "Creational\Builder\Builder.csproj", "{1EFE4552-F977-4981-94D5-308401F42AF1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Builder", "Creational\Builder\Builder.csproj", "{1EFE4552-F977-4981-94D5-308401F42AF1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractFactory", "Creational\AbstractFactory\AbstractFactory.csproj", "{BC2DC2F3-90FE-4994-BEFC-99E4261DC533}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstractFactory", "Creational\AbstractFactory\AbstractFactory.csproj", "{BC2DC2F3-90FE-4994-BEFC-99E4261DC533}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adapter", "Structural\Adapter\Adapter.csproj", "{F9006801-A6B8-4C63-8045-298D77BF7684}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +65,10 @@ Global
 		{BC2DC2F3-90FE-4994-BEFC-99E4261DC533}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BC2DC2F3-90FE-4994-BEFC-99E4261DC533}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BC2DC2F3-90FE-4994-BEFC-99E4261DC533}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9006801-A6B8-4C63-8045-298D77BF7684}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9006801-A6B8-4C63-8045-298D77BF7684}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9006801-A6B8-4C63-8045-298D77BF7684}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9006801-A6B8-4C63-8045-298D77BF7684}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -76,6 +82,7 @@ Global
 		{FCC3D36F-6C92-4A09-A320-C9BCA1905FE2} = {7FAA04E6-8595-462A-895D-247CE36E7E79}
 		{1EFE4552-F977-4981-94D5-308401F42AF1} = {80E61B37-520C-42E0-A170-96E26971D13C}
 		{BC2DC2F3-90FE-4994-BEFC-99E4261DC533} = {80E61B37-520C-42E0-A170-96E26971D13C}
+		{F9006801-A6B8-4C63-8045-298D77BF7684} = {F2E24CA9-7FEB-4C09-BCBE-0A34385FEC61}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {245F51A9-7E4A-4747-A072-0A3432209E66}
